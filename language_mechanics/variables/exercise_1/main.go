@@ -10,6 +10,7 @@ func main() {
 	fmt.Println(first)
 	fmt.Println(second)
 	fmt.Println(third)
+	fmt.Println("----------")
 
 	number := 1337
 	text := "Hello world!"
@@ -17,6 +18,7 @@ func main() {
 	fmt.Println(number)
 	fmt.Println(text)
 	fmt.Println(flag)
+	fmt.Println("----------")
 
 	// Task B
 	pi := float32(3.14)
