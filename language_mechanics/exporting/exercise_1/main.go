@@ -9,8 +9,8 @@ func main() {
 	var car = toy.New("Car", 7)
 	car.UpdateOnHand(2)
 	car.UpdateSold(14)
-	fmt.Println("Name", car.Name)
-	fmt.Println("Weight", car.Weight)
-	fmt.Println("OnHand", car.OnHand())
-	fmt.Println("Sold", car.Sold())
+	fmt.Println("Name:", car.Name)
+	fmt.Println("Weight:", car.Weight)
+	fmt.Println("OnHand:", car.OnHand())
+	fmt.Println("Sold:", car.Sold())
 }
